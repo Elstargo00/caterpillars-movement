@@ -1,11 +1,11 @@
 # Caterpillars Movement
 
 
-Have you ever noticed the movement pattern of a caterpillar? Usually it moves its mass from back to forth
+Have you ever noticed the movement pattern of caterpillars? Usually, they moves their mass from back to forth.
 
-One day, I've noticed the way it moves is similar to what we wrote in coding algorithms.
+One day, I noticed that the way they move is similar to what we wrote in coding algorithms.
 
-Let's experiment its with turtle graphic lib in python
+Let's experiment with the turtle graphic lib in Python.
 
 ```python
 
@@ -22,7 +22,7 @@ for seg_num in range(len(segments)-1, 0, -1:
 segments[0].forward(45)
 ```
 
-Let's see can we do it other way around? How about moving the FRONT_POSITION first
+Let's see can we do it other way around? How about moving the FRONT_POSITION first.
 
 ```python
 FRONT_POSITION = (-130,150)
@@ -36,6 +36,6 @@ segments[2].goto(old_middle_position.xcor(), old_middle_position.ycor())
 # consider its inconsistency in variables (eg. old_front_position, old_middle_position). This make it hard to write for loop to scale
 ```
 
-Could it be the nature is optimized?
+Could it be that nature is optimized?
 
-By resisting the it, things are much more complicated
+By resisting it, things become much more complicated.
