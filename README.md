@@ -1,8 +1,6 @@
 # Caterpillars Movement
 
-Have you ever noticed the movement pattern of caterpillars? Usually, they move their mass from the back to the front.
-
-One day, I noticed that the way they move is similar to the algorithms we write in code.
+Have you ever noticed the movement pattern of caterpillars? Usually, they move their mass from the back to the front. The way they move is just similar to the algorithms we write in code.
 
 Let's experiment with the turtle graphic lib in Python.
 
