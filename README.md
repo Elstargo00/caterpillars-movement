@@ -25,18 +25,18 @@ for seg_num in range(len(segments)-1, 0, -1:
 segments[0].forward(45)
 ```
 
-Let's see can we do it other way around? How about moving the FRONT_POSITION first.
+Let's see can we do it the other way around? How about moving the FRONT_POSITION first?
 
 ```python
 FRONT_POSITION = (-130,150)
 MIDDLE_POSITION = (-180,150)
 BACK_POSITION = (-230,150)
-old_front_position = segments[0] # we need to define new variable to keep the value of front position before changing
+old_front_position = segments[0] # we need to define a new variable to keep the value of the front position before changing
 segments[0].forward(45)
-old_middle_position = segment[1] # again, we need to define new variable to keep the value of middle position before changing
+old_middle_position = segment[1] # again, we need to define a new variable to keep the value of middle position before changing
 segments[1].goto(old_front_position.xcor(), old_front_position.ycor())
 segments[2].goto(old_middle_position.xcor(), old_middle_position.ycor())
-# consider its inconsistency in variables (eg. old_front_position, old_middle_position). This make it hard to write for loop to scale
+# consider its inconsistency in variables (eg. old_front_position, old_middle_position). This makes it hard to write for loop to automate the movement
 ```
 
 Could it be that nature is optimized?
