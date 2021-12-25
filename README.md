@@ -7,6 +7,9 @@ One day, I noticed that the way they move is similar to what we wrote in coding 
 
 Let's experiment with the turtle graphic lib in Python.
 
+
+<img src="https://github.com/Elstargo00/caterpillars-movement/blob/main/gif/caterpillar_movement.gif?raw=true">
+
 ```python
 
 FRONT_POSITION = (-130,150)
