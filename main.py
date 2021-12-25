@@ -47,9 +47,7 @@ while True:
 
     
 
-
-
-# screen.exitonclick()
+screen.exitonclick()
 
 
 
